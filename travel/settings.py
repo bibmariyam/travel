@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-a0j6&%*)zvikthy#tfxuy!*s82f^ry_k94mny_f2v646#l8-mh
 DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'kaz-travel.onrender.com',]
+ALLOWED_HOSTS = ['127.0.0.1', 'kaz-travel-2i6m.onrender.com',]
 
 # Application definition
 
