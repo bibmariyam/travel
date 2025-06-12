@@ -718,5 +718,8 @@ class UserUpdateView(UpdateView):
     except Exception as exception:
         print(exception)
 
-
-
+# Выход
+from django.contrib.auth import logout
+def logoutUser(request):
+    logout(request)
+    return render(request, "index.html")
